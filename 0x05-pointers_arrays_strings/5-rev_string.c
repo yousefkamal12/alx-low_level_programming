@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * rev_string - Reverses a string
+ * sp_string - Reverses a string
  * @s: Input string
  * Return: String in reverse
  */
 
-void rev_string(char *s)
+void sp_string(char *s)
 {
 	char sb = s[0];
 	int psr = 0;
