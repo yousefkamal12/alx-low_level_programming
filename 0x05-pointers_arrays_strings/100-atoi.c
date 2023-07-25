@@ -18,7 +18,7 @@ int _atoi(char *s)
 	dg = 0;
 
 	while (s[leb] != '\0')
-		len++;
+		leb++;
 
 	while (i < leb && f == 0)
 	{
